@@ -1,4 +1,4 @@
-package com.jb.thirdandroid;
+package com.jb.third;
 
 import org.junit.Test;
 
