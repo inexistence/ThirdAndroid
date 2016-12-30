@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 //                                new WXTimeLineShare(MainActivity.this)
 //                                        .share(ShareObjectFacctory.createAudioObject("http://bmob-cdn-6855.b0.upaiyun.com/2016/11/29/cdcbcc9a407bfba48014abc30a1f541b.mp3"));
                                 new WXTimeLineShare(MainActivity.this)
-                                        .share(ShareObjectFacctory.createWebObject("http://wwww.baidu.com"));
+                                        .share(ShareObjectFacctory.createWebObject(MainActivity.this, "http://wwww.baidu.com"));
                             }
                         });
                 builder.create().show();

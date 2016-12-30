@@ -10,5 +10,5 @@ public class ShareObject {
     public String title;
     public String description;
 
-    public byte[] thumbData;
+    public String thumbLocalUrl;
 }
